@@ -48,28 +48,43 @@
     margin-top: 3vh;
     margin-bottom: 2vh;
     gap: 12px;
-    cursor: pointer;
     max-width: 400;
     font-size: 15px;
     font-weight: bold;
 }
 
 #btn-primary {
+    cursor: pointer;
     text-decoration: none;
     border-radius: 50px;
     background-color: #2969a3;
     box-shadow: 0 5px 10px rgba(30, 58, 95, 0.5);
     color: #ffffff;
     padding: 12px 20px;
+    transition: 1s ease;
+}
+
+#btn-primary:hover {
+    font-weight: bolder;
+    color: #2969a3;
+    background-color: #ffffff;
 }
 
 #btn-secondary {
+    cursor: pointer;
     text-decoration: none;
     border-radius: 50px;
     background-color: #ffffff;
     box-shadow: 0 5px 10px rgba(51, 51, 51, 0.5);
     color: #1e3a5f;
     padding: 10px 20px;
+    transition: 1s ease;
+}
+
+#btn-secondary:hover {
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #2969a3;
 }
 
  /* Parte da Explicação */
