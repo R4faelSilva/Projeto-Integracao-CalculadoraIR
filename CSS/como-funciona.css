@@ -61,3 +61,20 @@
   color: #666;
   margin-top: 10px;
 }
+
+.contentFlex {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-end;
+  justify-content: space-between;
+}
+
+.imgFunciona{
+  width: 200px;
+  height: 200px;
+}
+
+.imgFunciona img{
+  width: 100%;
+  height: 100%;
+}
